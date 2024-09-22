@@ -142,11 +142,13 @@ saction.topo-do-site.flex{
     color: #fff;
     font-size: 38px;
     line-height: 40px;
+    
 } 
 .topo-do-site .txt-tpo-site h1 span{
     color: #ff0089;
     font-size: 32px;
 }
+
  .topo-do-site .txt-tpo-site p{
     color: #fff;
     margin: 40px 0;
@@ -166,47 +168,40 @@ saction.topo-do-site.flex{
     }
  }
 
+/*especialidades*/
+    section.especialidades{
+        padding: 20px 4%;
+        align-items: center;
+
+
+    }
+    .section.especialidades .flex{
+        gap: 60px;
 
 
 
- section.especialidades {
-    width: 90%; /* Define a largura da seção como 90% da tela */
-    margin: 0 auto; /* Centraliza a seção na tela */
-    overflow: hidden; /* Evita que a seção ultrapasse a tela */
-}
+    }
+    .especialidades .especialidades-box{
+        color: #ffffff;
+        padding: 40px;
+        border-radius: 20px;
+        margin-top: 40px;
+        transition: .2s;
+        
 
-section.especialidades .flex {
-    display: flex;
-    justify-content: space-between; /* Alinha os cards com espaço entre eles */
-    flex-wrap: nowrap; /* Garante que os cards fiquem na mesma linha */
-    gap: 20px; /* Ajuste o espaço entre os cards conforme necessário */
-}
+    }
+    .especialidades .especialidades-box:hover{
+        transform: scale(1.05);
+        box-shadow:  0 0 8px #f4f1f1c8; 
 
-.especialidades .especialidades-box {
-    color: #fff;
-    padding: 40px;
-    border-radius: 20px;
-    margin-top: 45px;
-    transition: 2s;
-    background-color: #333; 
-    flex: 1 1 calc(33.333% - 20px); /* Ajusta a largura dos cards para que caibam na mesma linha */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+    }
+    .especialidades .especialidades-box i{
+       font-size: 70px; 
+       color: #d5268c;
+    }
 
-.especialidades .especialidades-box:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 20px #ffffff77;
-}
 
-.especialidades .especialidades-box i {
-    font-size: 70px;
-    color: #ff0089;
-}
-
-.especialidades .especialidades-box h3 {
-    font-size: 28px;
-    margin: 15px 0;
-}
+ 
 
 
 
@@ -394,17 +389,17 @@ footer .line-footer{
         width: 100%;
 
     }
-    section.especialidades .flex{
+    /*section.especialidades .flex{
         gap: 40%;
     }
 
-    /* ESTILO DAS ESPECIALIDAES */
-    section.especialidades{
+    /* ESTILO DAS ESPECIALIDAES 
         padding: 40px 4%;
     }   
     h2.titulo{
         font-size: 30px;
        line-height: 30px;
+
     }
     
 /*ESTILO DO SOBRE */
