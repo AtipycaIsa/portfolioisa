@@ -188,7 +188,7 @@ section.especialidades .flex {
     border-radius: 20px;
     margin-top: 45px;
     transition: 2s;
-    background-color: #333; /* Adicionei uma cor de fundo para melhor visualização */
+    background-color: #333; 
     flex: 1 1 calc(33.333% - 20px); /* Ajusta a largura dos cards para que caibam na mesma linha */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
