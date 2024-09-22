@@ -6,5 +6,5 @@ Bem-vindo ao meu portfólio pessoal! Este repositório apresenta todos os meus p
 Olá! Isadora Reis, uma desenvolvedora apaixonada por tecnologia e inovação. Tenho experiência em desenvolvimento web, design de software e soluções inovadoras. Estou sempre buscando melhorar minhas habilidades e me desafiar com novos projetos.
 
 🌱 Atualmente estou focado em: Conseguir meu primeiro emprego na área de tecnologia.
-👨‍💻 Trabalhando em: projetos universitários 
+👨‍💻 Trabalhando em: projetos universitários https://atipycaisa.github.io/portfolioisa/
 📫 Como me encontrar: isadoraparreiras123@gmail.com
